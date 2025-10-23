@@ -358,6 +358,24 @@ export class ActivityModule extends BaseModule {
             CustomImage: "Assets/Female3DCG/Activity/Slap.png"
         });
 
+		// FINGERSNAP
+        this.AddActivity({
+            Activity: {
+                Name: "Snap",
+                MaxProgress: 50,
+                MaxProgressSelf: 50,
+                Prerequisite: ["UseArms"]
+            },
+            Targets: [
+                <ActivityTarget>{
+                    Name: "ItemHand",
+                    SelfAllowed: true,
+                    TargetAction: "SourceCharacter snaps fingers at TargetCharacter."
+					TargetSelfAction: "SourceCharacter does a finger snap!"
+                }
+            ],
+            CustomImage: "Assets/Female3DCG/Activity/Pinch.png"
+        });
         // Headbutt
         this.AddActivity({
             Activity: {
