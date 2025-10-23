@@ -1130,6 +1130,14 @@ export class HypnoModule extends BaseModule {
         return;
     }
 
+	/// I'm figuring this out as I go lol 
+	/// Optional Requirement- extra condition to trigger a suggestion: 'fingersnap' along with the trigger word.
+	AdditionalTrigger(opts: SuggestionMiniGameOptions, instruction: HypnoInstruction) {
+        LSCG_SendLocal(`Require fingersnap before tigger word is said "${instruction.type}" instruction and shake some of ${opts.senderName}'s influence.`);
+        /// this.ReduceSpeakerInfluence(opts.sender.MemberNumber ?? -1);
+        return;
+    }
+
     DowngradeInfluences() {
         // Downgrade influences over time logarithmically...
         if (!this.settings.influence || !this.settings.influence.forEach) {
