@@ -1,7 +1,6 @@
-# Original addon is here:
-
-## Original code:
+## Original addon is here:
 https://github.com/littlesera/LSCG
+^^ [Original Code] ^^
 ### TamperMonkey install:
 **Stable:** 
 https://github.com/littlesera/LSCG/raw/main/lscgLoader.user.js
