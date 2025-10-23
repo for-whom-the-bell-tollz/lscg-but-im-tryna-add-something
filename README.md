@@ -9,4 +9,5 @@ https://github.com/littlesera/LSCG/raw/dev/lscgLoader-dev.user.js
 
 https://github.com/littlesera/LSCG/wiki
 
+------------------------------------
 Just experimenting with some tweaks 
