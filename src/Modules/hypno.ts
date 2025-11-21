@@ -1129,7 +1129,7 @@ export class HypnoModule extends BaseModule {
         this.ReduceSpeakerInfluence(opts.sender.MemberNumber ?? -1);
         return;
     }
-
+	//// best regards to the poor soul that finds this...
 	/// I'm figuring this out as I go lol 
 	/// Optional Requirement- extra condition to trigger a suggestion: 'fingersnap' along with the trigger word.
 	AdditionalTrigger(opts: SuggestionMiniGameOptions, instruction: HypnoInstruction) {
